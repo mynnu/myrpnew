@@ -17,7 +17,7 @@ public class StudyController {
         TeachService ts = (TeachService) SpringUtils.getBean("teachService");
         String teach = ts.teach();
         System.out.println("Hi:" + teach);
-        System.out.println("我是初学者，请多多指教！");
+        System.out.println("java真强大");
         String practise = ts.practise();
         System.out.println(practise);
 
