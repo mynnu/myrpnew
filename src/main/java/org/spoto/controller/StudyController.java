@@ -10,8 +10,6 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class StudyController {
     
-    System.out.println("我是初学者，请多多指教！");
-
     @RequestMapping("read")
     @ResponseBody
     public String read(){
@@ -19,7 +17,7 @@ public class StudyController {
         TeachService ts = (TeachService) SpringUtils.getBean("teachService");
         String teach = ts.teach();
         System.out.println("Hi:" + teach);
-
+        System.out.println("我是初学者，请多多指教！");
         String practise = ts.practise();
         System.out.println(practise);
 
