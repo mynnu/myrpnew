@@ -21,7 +21,7 @@ public class StudyController {
         String practise = ts.practise();
         System.out.println(practise);
 
-        return "I want to read";
+        return "I want to read java";
     }
 
 
